@@ -1,0 +1,29 @@
+.links {
+  position: relative;
+  padding: 11px 18px 12px 16px;
+
+  font-weight: 600;
+  font-size: 14px;
+
+  color: #fff;
+}
+
+.links .img {
+  margin-right: 16px;
+}
+
+.links .icon {
+  position: absolute;
+  top: 50%;
+  right: 18px;
+  transform: translate(-50%, -50%);
+  display: none;
+}
+
+.active {
+  background-color: #509cdb;
+}
+
+.active .icon {
+  display: block;
+}

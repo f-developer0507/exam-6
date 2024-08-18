@@ -1,0 +1,32 @@
+@import "../src/assets/fonts/kumbh/kumbh.css";
+@import "../src/assets/fonts/inter/inter.css";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#root {
+  min-height: 100vh;
+
+  background-color: #fcfafa;
+  font-family: "Kumbh Sans", sans-serif;
+}
+
+.content {
+  width: calc(100% - 241px);
+
+  background-color: #fff;
+}
+
+.support::before {
+  content: "";
+  position: absolute;
+  bottom: -1px;
+  left: 29px;
+
+  width: 107px;
+  height: 29px;
+
+  filter: blur(50px);
+  background-color: rgba(30, 32, 36, 0.38);
+}
